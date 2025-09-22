@@ -2,8 +2,8 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 px-6">
-      <div className="container mx-auto max-w-4xl">
+    <section id="about" className="relative py-20 px-6 overflow-hidden">
+      <div className="relative z-10 container mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-center mb-12 text-cyan-400">About Me</h2>
         <div className="bg-black/80 border border-green-500/30 rounded-lg shadow-lg p-8">
           <p className="text-lg mb-4">
